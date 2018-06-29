@@ -6,13 +6,13 @@ $base_color:  #282a36;
 $bg_color:  #282a36;
 $fg_color: #fefefe;
 
-$red: #ff5555;
-$purple: #bd93f9;
-$cyan: #8be9fd;
-$lime: #50fa7a;
+$red: #FF5252;
+$purple: #9C27B0;
+$cyan: #00BCD4;
+$lime: #4CAF50;
 
 $selected_fg_color: $fg_color;
-$selected_bg_color: #ff79c6;
+$selected_bg_color: #00BCD4;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: transparentize(#44475a, 0.6);
 $borders_edge: transparentize(white, 0.9);
@@ -25,7 +25,7 @@ $bottom_highlight: transparentize(black, 0.9);
 $warning_color: darken(#ffb86c,10%);
 $error_color: darken( $red,5%);
 $success_color: darken($cyan,10%);
-$destructive_color: darken( #c72240,10%);
+$destructive_color: darken( #FF1744,10%);
 
 $osd_fg_color: #fefefe;
 $osd_bg_color: transparentize($bg_color, 0.05);

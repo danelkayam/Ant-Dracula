@@ -8,18 +8,18 @@ $bg_color: #1e1f29;
 $fg_color: #f8f8f2;
 
 // Primary colors
-$lime: #50fa7a;
-$red: #ff5555;
-$orange: #ffb86c;
-$yellow: #f1fa8c;
-$purple: #bd93f9;
-$darkpurple: #44475a;
-$cyan: #72BFD0;
-$blue: #13b1d5;
-$slider: #7b7bbd;
+$lime: #4CAF50;
+$red: #FF5252;
+$orange: #FF9800;
+$yellow: #FFEB3B;
+$purple: #9C27B0;
+$darkpurple: #7B1FA2;
+$cyan: #00BCD4;
+$blue: #03A9F4;
+$slider: #1976D2;
 
-$selected_fg_color: #f8f8f2;
-$selected_bg_color: #ff79c6;
+$selected_fg_color: $fg_color;
+$selected_bg_color: #00BCD4;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(rgb(156, 156, 156),0.8), transparentize(black,0.9));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));

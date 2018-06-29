@@ -4,9 +4,9 @@ static char *shade_pressed[] = {
 "28 32 5 1 ",
 "  c #1E1F29",
 ". c #2D2E37",
-"X c #8F4C77",
-"o c #964F7D",
-"O c #FF79C6",
+"X c #0097A7",
+"o c #00ACC1",
+"O c #00BCD4",
 /* pixels */
 "............................",
 "                            ",
